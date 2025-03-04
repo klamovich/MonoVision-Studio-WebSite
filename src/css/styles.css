@@ -148,7 +148,7 @@ html {
         }
 
         @media screen and (max-width: 375px) {
-            margin-top: 233px;
+            margin-top: 223px;
         }
     }
 
@@ -550,6 +550,10 @@ html {
 .customers {
     padding-bottom: 100px;
 
+    @media screen and (max-width: 768px) {
+        padding-bottom: 50px;
+    }
+
     .title {
         font-weight: 400;
         font-size: 40px;
@@ -558,7 +562,6 @@ html {
 
         @media screen and (max-width: 768px) {
             font-size: 36px;
-            padding-bottom: 50px;
         }
 
         @media screen and (max-width: 375px) {
@@ -589,7 +592,6 @@ html {
     @media screen and (max-width: 768px) {
         margin-top: 43px;
         gap: 20px;
-
     }
 
     @media screen and (max-width: 580px) {
@@ -607,7 +609,6 @@ html {
         @media screen and (max-width: 768px) {
             width: 200px;
         }
-
     }
 }
 
@@ -626,7 +627,7 @@ footer {
         justify-content: center;
         align-items: center;
         text-align: center;
-        gap: 40px;
+        gap: 200px;
     }
 
 
